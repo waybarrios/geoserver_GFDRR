@@ -6,7 +6,7 @@ MAINTAINER Wayner Barrios <waybarrios@gmail.com>
 # Set GeoServer version and data directory 
 #
 
-ENV ROOT_TOMCAT = '/usr/local/tomcat/webapps'\
+ENV ROOT_TOMCAT="/usr/local/tomcat/webapps"\
     GEOSERVER_DATA_DIR="/geoserver_data"
 
 #
