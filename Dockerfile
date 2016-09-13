@@ -12,8 +12,8 @@ ENV ROOT_TOMCAT = '/usr/local/tomcat/webapps'\
 #
 # Download and install GeoServer
 #
-RUN cd $ROOT_TOMCAT 
-COPY geoserver.war $ROOT_TOMCAT/geoserver.war
+RUN cd $ROOT_TOMCAT
+RUN wget -O geoserver.war https://googledrive.com/host/0B27czh8Ac9JqNWlQTHg5N3BmdUU 
 #
 # Extract geoserver.war
 #
